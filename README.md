@@ -1,6 +1,6 @@
-# Website for the CMU Data Interaction Group
+# Website for the UW-Madision Collaborative Computing Group
 
-Deployed at https://dig.cmu.edu/. 
+Deployed at . 
 
 ## Usage
 
