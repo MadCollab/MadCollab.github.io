@@ -1,2 +1,2 @@
-- name: Aditya Anantharaman
-  image: /assets/person.png
+- name: Corey Jackson
+  image: /assets/corey.png
