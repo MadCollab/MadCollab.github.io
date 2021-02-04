@@ -1,6 +1,6 @@
 --- 
 name: Corey Jackson
 website: http://www.coreybjackson.com/
-image: /assets/corey.jpg
+image: /assets/people/corey.jpg
 role: Professor
 ---
