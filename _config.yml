@@ -3,12 +3,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CMU Data Interaction Group
-email: dig@cmu.edu
+title: UW-Madison Collaborative Computing Group
+email: ccg@wisc.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Website of the Data Interaction Group at Carnegie Mellon University in Pittsburgh.
+  Website of the Collective Computing Group at University of Wisconsin in Madison, Wisconsin.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dig.cmu.edu" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://madcollab.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cmudig
 github_username: cmudig
 
