@@ -1,8 +1,6 @@
+--- 
+name: Jacob Thebault-Spieker
+website: https://jacob.thebault-spieker.com/
+image: /assets/jake.png
+role: Professor
 ---
-name: Alex Cabrera
-website: https://cabreraalex.com
-image: /assets/people/alex.jpg
-role: PhD Student
----
-
-Loves Milka.
