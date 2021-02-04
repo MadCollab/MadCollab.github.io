@@ -50,9 +50,6 @@ layout: default
           <li class="mt1 {% if award == "Best Paper Award" %}gold{% else %}cmu-red{% endif %}">
               <i class="fas fa-{% if award == "Best Paper Award" %}trophy{% else %}award{% endif %}"></i> {{ award }}
           </li>
-          <li class="mt1 {% if award == "Honorable Mention Best Paper Award" %}gold{% else %}cmu-red{% endif %}">
-              <i class="fas fa-{% if award == "Honorable Mention Best Paper Award" %}trophy{% else %}award{% endif %}"></i> {{ award }}
-          </li>
           {% endfor %}
         </ul>
       {% endif %}
