@@ -1,6 +1,6 @@
 # Website for the UW-Madision Collaborative Computing Group
 
-Deployed at . 
+Deployed at [TBD].
 
 ## Usage
 
@@ -11,3 +11,8 @@ To add specific content, follow the README guides in the corresponding directori
 * [Add a person](_people)
 * [Add a publication](_publications)
 * [Add a post](_posts)
+
+# Acknowledgements
+
+The design and implementation of this site was heavily influenced by the
+Data Interaction Group at CMU.
