@@ -66,6 +66,51 @@ body {
   --text-color: #000;
 }
 
+.uw-red{
+  color: var(--uw-red);
+}
+
+.hover-uw-red:hover {
+  color: var(--uw-red);
+}
+
+.uw-red-dark{
+  color: var(--uw-red-dark);
+}
+
+.uw-page-bg{
+  color: var(--uw-page-bg);
+}
+
+.uw-gray-blue{
+  color: var(--uw-gray-blue);
+}
+
+.uw-gray-darker{
+  color: var(--uw-gray-darker);
+}
+
+.uw-gray-darkest{
+  background-color: var(--uw-gray-darkest);
+}
+
+.uw-body-font{
+  color: var(--uw-body-font);
+}
+
+.uw-anchor-color{
+  color: var(--uw-anchor-color);
+}
+
+.uw-gray-footer-text{
+  color: var(--uw-gray-footer-text);
+}
+
+.uw-gray-footer-text-hover{
+  color: var(--uw-gray-footer-text-hover);
+}
+
+
 .cmu-red {
   color: var(--cmu-red);
 }
@@ -108,7 +153,8 @@ h6 {
   margin-right: 0.15em;
 
   &:after {
-    content: " \25BA";
+    // content: " \25BA";
+    content: " \276F";
     display: inline;
     position: relative;
     font-size: 75%;
