@@ -50,11 +50,11 @@
               >
             </div>
             <div class="tc">
-              <a
+              <!-- <a
                 class="ml5-l ml3-m pa0-ns ph2 pv1 b black hover-cmu-red link dib"
                 href="https://github.com/MadCollab"
                 ><i class="fab fa-github mr2"></i>GitHub</a
-              >
+              > -->
               <!-- <a
                 class="ml4-l ml3-m pa0-ns ph2 pv1 b black hover-cmu-red link dib"
                 href="https://twitter.com/"
@@ -74,9 +74,9 @@
     <footer class="bt bg-cmu-dark-gray white mt5 flex-shrink-0">
       <div class="w-100 mw8 ph4-l ph3 center pv5">
         <div class="flex flex-row-ns flex-column">
-          <div class="w-50-ns">
+          <div class="w-third-ns">
+            <h4 class='white mt0-ns'>Hello from Madison, WI.</h4>
             <div class="pv1">
-              Hello from Madison, WI.
               <a
                 href="{{ '/team' | relative_url }}"
                 class="link white dim underline"
@@ -99,7 +99,7 @@
               >
               on Twitter.
             </div> -->
-            <div class="pt4">
+            <div class="pv1">
               <abbr
                 title="Last build on {{ site.time | date: '%Y-%m-%d' }}"
                 class="white"
@@ -108,9 +108,14 @@
               >
             </div>
           </div>
-          <div class="w-50-ns">
+          <div class="w-third-ns">
             <h4 class="white mt0-ns">Links</h4>
             <ul class="list pl0">
+              <li>
+                <a href="https://github.com/MadCollab" class="link white dim pv1 dib"
+                  >Group GitHub</a
+                >
+              </li>
               <li>
                 <a href="https://www.ischool.wisc.edu" class="link white dim pv1 dib"
                   >Information School</a
@@ -122,6 +127,18 @@
                 >
               </li>
             </ul>
+          </div>
+          <div class="w-third-ns">
+            <picture>
+              <source
+                srcset="{{ '/assets/outline-center-UWlogo-print.png' | relative_url }}"
+                type="image/png"
+              />
+              <img
+                alt="The UW-Madison logo."
+                class=""
+                width='180px'
+              />
           </div>
         </div>
       </div>
