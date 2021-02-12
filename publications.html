@@ -57,11 +57,11 @@ subtitle: We publish at Social Computing and Human-Computer Interaction conferen
       <div class="fw2 lh-copy">
         {% for author in pub.authors %}{% include person name=author %}{% unless forloop.last %}, {% endunless %}
         {% endfor %}
-      </div>
+      </div class="uw-body-font">
       {% if pub.venue %}
-      <div class="cmu-dark-gray">
+      <div>
         {% if pub.venue_url %}
-        <a href="{{ pub.venue_url }}" class="cmu-dark-gray">
+        <a href="{{ pub.venue_url }}" class="uw-body-font">
           {% endif %}
           {{ pub.venue }}
           {% if pub.venue_location %}
@@ -80,8 +80,8 @@ subtitle: We publish at Social Computing and Human-Computer Interaction conferen
 
       {% if pub.tweet %}
       <div class="mv1 measure-wide">
-        <a href="https://twitter.com/intent/tweet?text={{ pub.tweet }}&url={{ site.production_url }}/publications/%23{{ anchor }}&via=cmudig&related=cmudig"
-          class="cmu-dark-gray f6">
+        <a href="https://twitter.com/intent/tweet?text={{ pub.tweet }}&url={{ site.production_url }}/publications/%23{{ anchor }}"
+          class="f6 uw-body-font">
           <i class="fab fa-twitter"></i> <span class="i">{{ pub.tweet }}</span>
         </a>
       </div>
