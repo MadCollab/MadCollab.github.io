@@ -110,8 +110,8 @@ layout: default
           </a></li>
         {% endif %}
         {% if page.doi %}
-          <li class="mt2"><a href="https://www.doi2bib.org/bib/{{ page.doi }}" class="black link hover-cmu-red">
-            <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+          <li class="mt2"><a href="{{ page.doi }}" class="black link hover-cmu-red">
+            <i class="fas fa-link" aria-hidden="true"></i> DOI
           </a></li>
         {% elsif page.arxiv %}
           <li class="mt2"><a href="https://arxiv2bibtex.org/?q={{ page.arxiv | cgi_escape }}" class="black link hover-cmu-red">

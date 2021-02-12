@@ -130,8 +130,8 @@ subtitle: We publish at Social Computing and Human-Computer Interaction conferen
         </a>
         {% endif %}
         {% if pub.doi %}
-        <a href="https://www.doi2bib.org/bib/{{ pub.doi }}" class="black link hover-uw-red mr3 dib">
-          <i class="fas fa-book f6" aria-hidden="true"></i> Bibtex
+        <a href="{{ pub.doi }}" class="black link hover-uw-red mr3 dib">
+          <i class="fas fa-link f6" aria-hidden="true"></i> DOI
         </a>
         {% elsif pub.arxiv %}
         <a href="https://arxiv2bibtex.org/?q={{ pub.arxiv | cgi_escape }}" class="black link hover-uw-red mr3 dib">
