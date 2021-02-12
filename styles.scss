@@ -141,11 +141,11 @@ h3,
 h4,
 h5,
 h6 {
-  @extend .cmu-dark-gray, .mt4, .mb3, .lh-title;
+  @extend .uw-body-font, .mt4, .mb3, .lh-title;
 }
 
 .cta {
-  color: var(--cmu-dark-gray);
+  color: var(--uw-body-font);
 
   @extend .ttu, .no-underline, .b;
 
@@ -169,7 +169,7 @@ h6 {
 
 main {
   a {
-    color: var(--cmu-red);
+    color: var(--uw-red-dark);
     text-decoration-color: var(--pink);
     @extend .link;
 
@@ -181,14 +181,14 @@ main {
 }
 
 button {
-  border-bottom: 2px solid var(--cmu-dark-gray);
-  background-color: 2px solid var(--cmu-gray);
+  border-bottom: 2px solid var(--uw-gray-darker);
+  background-color: 2px solid var(--uw-gray-blue);
   padding: 0.2rem 0.6rem;
 }
 
 .jumbotron {
-  // https://www.gradient-animator.com/
   background: var(--uw-red-dark);
+  // https://www.gradient-animator.com/
   // background: linear-gradient(
   //   280deg,
   //   var(--uw-red),
@@ -223,6 +223,15 @@ button {
 }
 
 footer {
+  a{
+    &:hover{
+      color: var(--uw-gray-footer-text-hover)
+    }
+    &:focus {
+      color: var(--uw-gray-footer-text-hover);
+    }
+  }
+  // For including a watermark image being the footer
   // background-image: url(assets/outline-UWcrest-print.png);
   // background-repeat: no-repeat;
   // background-position-x: 50px;
