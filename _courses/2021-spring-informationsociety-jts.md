@@ -5,6 +5,12 @@ year: 2021
 semester: Spring
 instructors:
   - Jacob Thebault-Spieker
+tas:
+  - TBD
+  - TBD
+  - TBD
+redirect_from:
+  - ids2021
 ---
 
 [Canvas](https://canvas.wisc.edu/courses/243405).
