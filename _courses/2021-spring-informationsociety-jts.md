@@ -1,6 +1,6 @@
 ---
 layout: course
-name: LIS 201: The Information Society
+name: LIS 201 - The Information Society
 year: 2021
 semester: Spring
 instructors:

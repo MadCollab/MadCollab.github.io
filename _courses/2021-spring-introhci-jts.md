@@ -1,6 +1,6 @@
 ---
 layout: course
-name: CS 570: Introduction to Human Computer Interaction
+name: CS 570 - Introduction to Human Computer Interaction
 year: 2021
 semester: Spring
 instructors:
